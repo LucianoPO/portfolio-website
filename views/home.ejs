@@ -1,0 +1,56 @@
+<%- include('partials/header') %>
+
+<!-- First Section -->
+<div id='header'>
+  <h1>Luciano Oliveira</h1>
+  <p>Full-Stack Web Developer</p>
+
+  <a href="https://www.linkedin.com/in/luciano-prado-oliveira"><i class="fa fa-brands fa-linkedin fa-lg"></i></a>
+  <a href="https://github.com/LucianoPO"><i class="fa fa-brands fa-github fa-lg"></i></a>
+  <a data-bs-toggle="collapse" href="#collapseContact" role="button" aria-expanded="false" aria-controls="collapseContact"><i class="fa fa-solid fa-envelope fa-lg"></i></a>
+
+<div class="collapse" id="collapseContact">
+  <div class="card card-body">
+    <h5 class='no-padding'>You can find me in: lucianopoliveira2003@gmail.com</h5>
+  </div>
+</div>
+
+</div>
+
+<!-- Portfolio -->
+<div id='portfolio'>
+  <h1>Portfolio</h1>
+
+<!-- Animation -->
+  <div id="portfolio-carousel" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
+      </div>
+
+      <div class="carousel-item">
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
+        <h1>About</h1>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#portfolio-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#portfolio-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+
+  <%- include('partials/footer') %>

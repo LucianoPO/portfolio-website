@@ -1,0 +1,74 @@
+/* HTML TAGS */
+
+a:visited {
+ text-decoration: none;
+ color: black;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 60px;
+  color: #220202;
+}
+
+h5 {
+  padding-top: 15px;
+}
+
+p {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  color: #2B0404;
+}
+
+body {
+  background-color: #C5DAF4;
+  margin: 0;
+}
+
+i {
+  padding: 10px 30px 10px 30px;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  color: #2B0404;
+}
+
+/* CLASSES */
+
+.fa-linkedin {
+  color: blue;
+}
+
+.no-padding {
+  padding-top: 0;
+}
+
+.card {
+  background-color: #82C7DB;
+}
+
+/* IDs */
+
+#header {
+  text-align: center;
+  padding: 230px;
+}
+
+#portfolio {
+  background-color: #82C7DB;
+  text-align: center;
+  padding: 20px;
+}
+
+#portfolio-carousel {
+  padding: 40px;
+}
